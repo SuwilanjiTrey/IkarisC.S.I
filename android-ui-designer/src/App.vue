@@ -135,7 +135,7 @@ data() {
           type: 'Button',
           displayName: 'Button',
           defaultImage: null,
-        currentImage: 'public/img/button.png'
+        currentImage: '../img/button.png'
         },
         {
           type: 'TextView',
