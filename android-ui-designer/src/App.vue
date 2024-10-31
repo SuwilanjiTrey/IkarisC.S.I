@@ -135,7 +135,7 @@ data() {
           type: 'Button',
           displayName: 'Button',
           defaultImage: null,
-        currentImage: 'IkarisC.S.I/img/button.png'
+        currentImage: 'public/img/button.png'
         },
         {
           type: 'TextView',
