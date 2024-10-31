@@ -303,7 +303,7 @@ data() {
           type: 'ImageView',
           displayName: 'ImageView',
           defaultImage: null,
-          currentImage: '/img/image.png'
+          currentImage: 'IkarisC.S.I/img/image.png'
         },
         {
           type: 'VideoView',
