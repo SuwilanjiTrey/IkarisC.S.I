@@ -1,0 +1,83 @@
+.canvas-container {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.phone-frame {
+  position: relative;
+  width: 400px;
+  height: 800px;
+  background: url('../phone.png') no-repeat center center;
+  background-size: contain;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.screen-area {
+  position: absolute;
+  width: 85%;
+  height: 80%;
+  top: 9.5%;
+  left: 7.5%;
+  overflow: visible;
+  border-radius: 5px;
+
+  background: #fcfafa00;
+  border: 1px solid #02020200;
+}
+
+.canvas {
+  position:static;
+  width: 50%;
+  height: 100%;
+  background-color: rgba(247, 247, 247, 0);
+  overflow: hidden;
+  
+  border: 2px solid transparent; /* Added to maintain consistent dimensions */
+
+  margin: 0;
+  padding: 0;
+}
+
+.canvas-element {
+  position: absolute;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px;
+  cursor: move;
+  box-sizing: border-box;
+}
+
+.canvas-element.selected {
+  border: 2px solid #007bff;
+  z-index: 10;
+}
+
+.resize-handle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  cursor: se-resize;
+}
+
+.trash-section {
+  width: 50%;
+  height: 50px;
+  margin-top: 20px;
+  background-color: #f44336;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
