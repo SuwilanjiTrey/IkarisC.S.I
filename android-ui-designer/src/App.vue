@@ -135,7 +135,7 @@ data() {
           type: 'Button',
           displayName: 'Button',
           defaultImage: null,
-        currentImage: '../img/button.png'
+        currentImage: '../IkarisC.S.I/img/button.png'
         },
         {
           type: 'TextView',
@@ -303,7 +303,7 @@ data() {
           type: 'ImageView',
           displayName: 'ImageView',
           defaultImage: null,
-          currentImage: 'IkarisC.S.I/img/image.png'
+          currentImage: '/IkarisC.S.I/img/image.png'
         },
         {
           type: 'VideoView',
