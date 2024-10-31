@@ -141,7 +141,7 @@ data() {
           type: 'TextView',
           displayName: 'TextView',
           defaultImage: null,
-          currentImage:'/img/text_view.png'
+          currentImage:'../IkarisC.S.I/img/text_view.png'
         },
         {
           type: 'EditText',
@@ -171,19 +171,19 @@ data() {
           type: 'RadioButton',
           displayName: 'RadioButton',
           defaultImage: null,
-          currentImage: '/img/radio.png'
+          currentImage: '../IkarisC.S.I/img/radio.png'
         },
         {
           type: 'CheckBox',
           displayName: 'CheckBox',
           defaultImage: null,
-          currentImage: '/img/checkbox_off.png'
+          currentImage: '../IkarisC.S.I/img/checkbox_off.png'
         },
         {
           type: 'Switch',
           displayName: 'Switch',
           defaultImage: null,
-          currentImage: '/img/switch_on.png'
+          currentImage: '../IkarisC.S.I/img/switch_on.png'
         },
         {
           type: 'ToggleButton',
@@ -207,7 +207,7 @@ data() {
           type: 'RecyclerView',
           displayName: 'RecyclerView',
           defaultImage: null,
-          currentImage: '/img/recycler_view.png'
+          currentImage: '../IkarisC.S.I/img/recycler_view.png'
         },
         {
           type: 'ScrollView',
@@ -303,7 +303,7 @@ data() {
           type: 'ImageView',
           displayName: 'ImageView',
           defaultImage: null,
-          currentImage: '/IkarisC.S.I/img/image.png'
+          currentImage: '/IkarisC.S.I../IkarisC.S.I/img/image.png'
         },
         {
           type: 'VideoView',
@@ -327,19 +327,19 @@ data() {
           type: 'ProgressBar',
           displayName: 'ProgressBar',
           defaultImage: null,
-          currentImage: '/img/progress_bar.png'
+          currentImage: '../IkarisC.S.I/img/progress_bar.png'
         },
         {
           type: 'RatingBar',
           displayName: 'RatingBar',
           defaultImage: null,
-          currentImage: '/img/rating_bar.png'
+          currentImage: '../IkarisC.S.I/img/rating_bar.png'
         },
         {
           type: 'SeekBar',
           displayName: 'SeekBar',
           defaultImage: null,
-          currentImage: '/img/seek_bar.png'
+          currentImage: '../IkarisC.S.I/img/seek_bar.png'
         },
         {
           type: 'SearchView',
@@ -362,11 +362,11 @@ data() {
         availableImages: [
       { 
         name: 'Profile',
-        path: '/img/profile.png'
+        path: '../IkarisC.S.I/img/profile.png'
       },
       { 
         name: 'Button',
-        path: '/img/logo.png'
+        path: '../IkarisC.S.I/img/logo.png'
       },
       // Add more images as needed
     ],
